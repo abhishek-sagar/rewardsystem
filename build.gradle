@@ -14,10 +14,8 @@ configurations {
 	}
 }
 
-tasks.jar {
-	manifest {
-		attributes["Main-Class"] = "com.telekom.hackfest.rewardsystem.RewardsystemApplication"
-	}
+springBoot {
+	mainClass = 'com.telekom.hackfest.rewardsystem.RewardsystemApplicatio'
 }
 
 repositories {
