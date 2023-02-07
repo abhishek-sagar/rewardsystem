@@ -15,7 +15,7 @@ configurations {
 }
 
 springBoot {
-	mainClass = 'com.telekom.hackfest.rewardsystem.RewardsystemApplicatio'
+	mainClass = 'com.telekom.hackfest.rewardsystem.RewardsystemApplication'
 }
 
 repositories {
